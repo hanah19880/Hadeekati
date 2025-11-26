@@ -123,11 +123,13 @@ header {
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s;
+    width: 20%;
 }
 
 .btn:hover {
     background-color: #d8660a;
       font-size: 20px;
+      width: 22%;
 }
 
 /* سكشن 2 */
@@ -408,7 +410,7 @@ header {
             place-items: center;
             text-align: center;
             color: white;
-             padding-top: 80px;
+      
         }
 
         .home-content h1 {
@@ -582,20 +584,15 @@ header {
             cursor: pointer;
             transition: 0.2s;
         }
-
-        .add-btn:hover {
-            background-color: #256528;
-        }
 @media (max-width: 768px) {
   header {
     grid-template-columns: 1fr auto; 
     height: auto;
     padding: 15px 4%;
     position: static;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.459);
+    background: linear-gradient(135deg, rgba(46, 125, 50, 0.112) 0%, rgba(216, 102, 10, 0.1) 100%) !important;
     box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
-    backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(180%) blur(15px) !important;
     cursor: pointer;
     z-index: 1000;
   }
@@ -624,7 +621,9 @@ header {
   .home p{
     display: none !important; 
   }
-  
+  .home .btn{
+    width: 80%;
+  }
   .products-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -687,41 +686,47 @@ header {
 
 
 @media (max-width: 480px) {
-    /* إخفاء شريط التنقل التقليدي */
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
     .divbar {
         display: none;
     }
-
-    /* تعديل الهيدر */
     header {
         height: 100px;
         padding: 0 15px;
+         grid-template-columns: auto 1fr auto;
     }
-
     header .logo img {
         width: 150px;
         height: auto;
     }
-
-    /* أيقونة السلة تكبر وتصير أسهل للضغط */
     .icons a {
         font-size: 28px;
-        color: #333;
+         margin-left: 10px;
     }
 
     /* تعديل محتوى الصفحة الرئيسية */
     .home{
-       width: 50%; 
-       height: 20%;
+          height: 50vh;
+        min-height: 300px;
+        grid-template-columns: 1fr;
+        padding: 70px 15px 15px;
+        text-align: center;
     }
     .home .content {
         width: 90%;
         padding: 15px;
-        font-size: 16px;
+        font-size: 24px;
+        gap:8px;
     }
 
     .home h3 {
         font-size: 28px;
+    }
+     .home h3:hover {
+        font-size: 30px;
     }
 
     .home span {
@@ -730,12 +735,19 @@ header {
 
     .home p {
         font-size: 14px;
-
+        margin: 8px 0;
+        line-height: 1.5;
+        display: block !important;
     }
 
     .btn {
+         width: 80%;
         font-size: 16px;
         padding: 10px 20px;
+    }
+     .btn:hover {
+        width: 82%;
+        font-size: 14px;
     }
     .home-content  p{
      display: none !important; 
