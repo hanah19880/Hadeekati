@@ -684,165 +684,25 @@ header {
   }
 }
 
-
 @media (max-width: 480px) {
-    body {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-    .divbar {
-        display: none;
-    }
-    header {
-        height: 100px;
-        padding: 0 15px;
-        grid-template-columns: auto 1fr auto;
-    }
-    header .logo img {
-        width: 150px;
-        height: auto;
-    }
-    .icons a {
-        font-size: 28px;
-         margin-left: 10px;
-    }
 
-    /* تعديل محتوى الصفحة الرئيسية */
-    .home{
-        height: 50vh;
-        min-height: 300px;
-        grid-template-columns: 1fr;
-        padding: 70px 15px 15px;
-        text-align: center;
-    }
-    .home .content {
-        width: 90%;
-        padding: 15px;
-        font-size: 20%;
-        gap:4px;
-    }
-
-    .home h3 {
-        font-size: 38px;
-    }
-     .home h3:hover {
-        font-size: 40px;
-    }
-
-    .home span {
-        font-size: 35px;
-    }
-
-    .home p {
-        font-size: 34px;
-        margin: 8px 0;
-        line-height: 1.5;
-        display: block !important;
-    }
-
-    .btn {
-        width: 90%;
-        font-size: 16px;
-        padding: 10px 20px;
-    }
-     .btn:hover {
-        width: 92%;
-        font-size: 19px;
-    }
-    .home-content  p{
-     display: none !important; 
+  body {
+    font-size: 14px;
   }
-  .home-content  h1{
-    margin-bottom: 10px;
+
+  .divbar {
+    display: none;
   }
-    /* تعديل أقسام المنتجات */
-    .product-section {
-        padding: 20px 10px;
-        margin: 15px 10px;
-    }
 
-    .products-grid {
-        flex-direction: column;
-        gap: 15px;
-    }
+  header {
+    grid-template-columns: auto 1fr auto;
+    height: 80px;
+    padding: 0 15px;
+  }
 
-    .product-card {
-        width: 100%;
-        padding: 10px;
-    }
+  header .logo img {
+    width: 120px;
+  }
 
-    .img-container {
-        height: 180px;
-    }
-
-    .img-container img {
-        height: 180px;
-    }
-
-    /* تصغير النصوص */
-    .product-card h3 {
-        font-size: 18px;
-    }
-
-    .desc-text {
-        font-size: 13px;
-    }
-
-    /* أزرار العداد والإضافة */
-    .cart-row {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .quantity-box {
-        gap: 5px;
-    }
-
-    .quantity-box button {
-        width: 24px;
-        height: 24px;
-        font-size: 16px;
-    }
-
-    .quantity-box span {
-        font-size: 16px;
-        width: 20px;
-    }
-
-    .add-btn {
-        width: 100%;
-        font-size: 16px;
-        padding: 8px 0;
-    }
-
-    /* تعديل الفوتر ليكون عمودي */
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 25px;
-        text-align: center;
-        height: 100%;
-    }
-
-    .footer-info, .footer-contact {
-        order: unset;
-        flex: unset;
-        width: 100%;
-    }
-
-    .footer-info p {
-        font-size: 14px;
-    }
-
-    .contact-form input, .contact-form textarea {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .footer .btn {
-        font-size: 16px;
-        padding: 10px 20px;
-    }
 }
-
+  
