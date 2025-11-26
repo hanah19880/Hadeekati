@@ -696,7 +696,7 @@ header {
     header {
         height: 100px;
         padding: 0 15px;
-         grid-template-columns: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
     }
     header .logo img {
         width: 150px;
@@ -709,7 +709,7 @@ header {
 
     /* تعديل محتوى الصفحة الرئيسية */
     .home{
-          height: 50vh;
+        height: 50vh;
         min-height: 300px;
         grid-template-columns: 1fr;
         padding: 70px 15px 15px;
@@ -718,36 +718,36 @@ header {
     .home .content {
         width: 90%;
         padding: 15px;
-        font-size: 24px;
-        gap:8px;
+        font-size: 20%;
+        gap:4px;
     }
 
     .home h3 {
-        font-size: 28px;
+        font-size: 38px;
     }
      .home h3:hover {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .home span {
-        font-size: 16px;
+        font-size: 35px;
     }
 
     .home p {
-        font-size: 14px;
+        font-size: 34px;
         margin: 8px 0;
         line-height: 1.5;
         display: block !important;
     }
 
     .btn {
-         width: 80%;
+        width: 90%;
         font-size: 16px;
         padding: 10px 20px;
     }
      .btn:hover {
-        width: 82%;
-        font-size: 14px;
+        width: 92%;
+        font-size: 19px;
     }
     .home-content  p{
      display: none !important; 
@@ -845,3 +845,4 @@ header {
         padding: 10px 20px;
     }
 }
+
